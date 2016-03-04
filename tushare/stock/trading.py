@@ -620,5 +620,5 @@ def _code_to_symbol(code):
         if len(code) != 6 :
             return ''
         else:
-            return 'sh%s'%code if code[:1] in ['5', '6', '9'] else 'sz%s'%code
+            return 'sh%s'%code if code[:1] in ['5', '6', '9','2'] else 'sz%s'%code
 
